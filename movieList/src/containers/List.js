@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Card from '../components/Card/Card';
-import movieAssets from '../assets/data.json'
 
 class List extends Component {
 	constructor() {
@@ -10,14 +9,14 @@ class List extends Component {
 			loading: true,
 		};
 	}
-	
+	//attempts to load the JSON data 
 	async componentDidMount() {
-		const movies = await fetch('../assets/data.json');
-		const moviesJSON = await movies.json();
+		const stocks = await fetch('../assets/data.json');
+		const stocksJSON = await stocks.json();
 		
-		if (moviesJSON) {
+		if (stocksJSON) {
 			this.setState({
-				data: moviesJSON,
+				data: stocksJSON,
 				loading: false,
 			});
 		}
@@ -25,12 +24,20 @@ class List extends Component {
 	
 	render(){
 		const { data, loading } = this.state;
-	
+	//leave a loading message if JSON data is still loading or fails to load
 	if (loading) {
 		return <div>Loading...</div>
 	}
 	
-	return data.map(movie => <Card key={ movie.id } movie={ movie} />);
+	return (
+	<div className='row'>
+		{data.map(stock =>
+		<div className='col-sm-2'>
+			<Card key={ stock.id } stock={ stock} />
+		</div>
+		)}
+	</div>
+	);
 	
 	}
 };
