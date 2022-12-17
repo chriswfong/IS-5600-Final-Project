@@ -1,61 +1,61 @@
 [
   {
    "id": 1,
-    "title": "Avatar",
-    "distributor": "20th Century Fox",
-    "year": 2009,
-    "amount": "$2,787,965,087",
+    "title": "Tesla",
+    "exchange": "NASDAQ",
+    "ticker": "TSLA",
+    "amount": 150.23,
     "img": {
-      "src": "media/avatar.jpg",
-      "alt": "avatar"
+      "src": "media/tesla.png",
+      "alt": "tesla"
     },
     "ranking": 1
   },
   {
     "id": 2,
-    "title": "Titanic",
-    "distributor": "20th Century Fox",
-    "year": 1997,
-    "amount": "$2,187,463,944",
+    "title": "Meta",
+    "exchange": "NASDAQ",
+    "ticker": "META",
+    "amount": 119.43,
     "img": {
-      "src": "media/titanic.jpg",
-      "alt": "titanic"
+      "src": "media/meta.png",
+      "alt": "meta"
     },
     "ranking": 2
   },
   {
     "id": 3,
-    "title": "Star Wars: The Force Awakens",
-    "distributor": "Walt Disney Studios Motion Pictures",
-    "year": 2015,
-    "amount": "$2,068,223,624",
+    "title": "Apple",
+    "exchange": "NASDAQ",
+    "ticker": "AAPL",
+    "amount": 134.51,
     "img": {
-      "src": "media/star_wars_the_force_awakens.jpg",
-      "alt": "star_wars_the_force_awakens"
+      "src": "media/apple.png",
+      "alt": "apple"
     },
     "ranking": 3
   },
   {
     "id": 4,
-    "title": "Avengers: Infinity War",
-    "distributor": "Walt Disney Studios Motion Pictures",
-    "year": 2018,
-    "amount": "$2,048,359,754",
+    "title": "Bank of America",
+    "exchange": "NYSE",
+    "ticker": "BAC",
+    "amount": 31.70,
     "img": {
-      "src": "media/avengers_infinity_war.jpg",
-      "alt": "avengers_infinity_war"
+      "src": "media/boa.png",
+      "alt": "Bank of America"
     },
     "ranking": 4
   },
   {
     "id": 5,
-    "title": "Jurassic World",
-    "distributor": "Universal Pictures",
-    "year": 2015,
-    "amount": "$1,671,713,208",
+    "title": "FedEx",
+    "exchange": "NYSE",
+    "ticker": "FDX",
+    "amount": 171.72,
     "img": {
-      "src": "media/jurassic_world.jpg",
-      "alt": "jurassic_world"
+      "src": "media/fedex.png",
+      "alt": "FedEx"
     },
     "ranking": 5
   }
